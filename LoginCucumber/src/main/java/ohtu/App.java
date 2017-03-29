@@ -46,6 +46,8 @@ public class App {
                 } else {
                     io.print("wrong username or password");
                 }
+            } else if (command.equals("exit")) {
+                break;
             }
 
         }
